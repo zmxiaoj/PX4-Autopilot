@@ -13,7 +13,7 @@
     <arg name="est" default="ekf2"/>
     <arg name="vehicle" default="iris_D435i"/>
     <!--ego-->
-    <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/ego.world"/>
+    <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/ego.world"/> -->
     <!-- CERLAB world -->
     <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/bridge/bridge_static.world"/> -->
     <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/square/square_box.world" /> -->
@@ -70,7 +70,7 @@
 
     <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/room/room_empty.world" /> -->
     <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/room/room_static.world" /> -->
-    <!-- <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/generated_env/generated_env.world" /> -->
+    <arg name="world" value="$(find mavlink_sitl_gazebo)/worlds/CERLAB/generated_env/generated_env.world" />
 
 
     <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/$(arg vehicle)/$(arg vehicle).sdf"/>
